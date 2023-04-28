@@ -112,9 +112,9 @@
 		5E68688729FBBDF700C5E6A6 /* ZWT */ = {
 			isa = PBXGroup;
 			children = (
-				5E68688C29FBBE1D00C5E6A6 /* Controllers */,
-				5E68688B29FBBE1600C5E6A6 /* Views */,
 				5E68688829FBBE0000C5E6A6 /* Models */,
+				5E68688B29FBBE1600C5E6A6 /* Views */,
+				5E68688C29FBBE1D00C5E6A6 /* Controllers */,
 			);
 			name = ZWT;
 			sourceTree = "<group>";
@@ -171,6 +171,7 @@
 		5ED3D2D929FBB174001136A4 /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5ED3D2F329FBB1A5001136A4 /* iOSDemo-Bridging-Header.h */,
 				5ED3D2EB29FBB175001136A4 /* Info.plist */,
 				5ED3D30429FBB308001136A4 /* QX */,
 				5E68688629FBBDE200C5E6A6 /* WYR */,
@@ -184,7 +185,6 @@
 		5ED3D30429FBB308001136A4 /* QX */ = {
 			isa = PBXGroup;
 			children = (
-				5ED3D2F329FBB1A5001136A4 /* iOSDemo-Bridging-Header.h */,
 				5E68688429FBBCFA00C5E6A6 /* ImageViewController.swift */,
 				5ED3D2F429FBB1A6001136A4 /* DetailViewController.swift */,
 				5ED3D2F529FBB1A6001136A4 /* file.txt */,
