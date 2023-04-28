@@ -1,0 +1,27 @@
+PODS:
+  - JJKit (1.0.4):
+    - JJKit/JJCarouselView (= 1.0.4)
+    - JJKit/JJExtension (= 1.0.4)
+    - JJKit/JJRouter (= 1.0.4)
+    - JJKit/JJTransition (= 1.0.4)
+  - JJKit/JJCarouselView (1.0.4):
+    - JJKit/JJExtension
+  - JJKit/JJExtension (1.0.4)
+  - JJKit/JJRouter (1.0.4):
+    - JJKit/JJExtension
+  - JJKit/JJTransition (1.0.4):
+    - JJKit/JJExtension
+
+DEPENDENCIES:
+  - JJKit
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - JJKit
+
+SPEC CHECKSUMS:
+  JJKit: 9245698487897aa529bab3fc92b1cf53a168e470
+
+PODFILE CHECKSUM: eaf558a85ccbf099ec88df4a96e8d6ed104ac1c7
+
+COCOAPODS: 1.12.1
