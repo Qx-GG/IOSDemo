@@ -1,4 +1,20 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.6.4)
   - JJKit (1.0.4):
     - JJKit/JJCarouselView (= 1.0.4)
     - JJKit/JJExtension (= 1.0.4)
@@ -13,15 +29,21 @@ PODS:
     - JJKit/JJExtension
 
 DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
   - JJKit
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - Alamofire
     - JJKit
 
 SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   JJKit: 9245698487897aa529bab3fc92b1cf53a168e470
 
-PODFILE CHECKSUM: eaf558a85ccbf099ec88df4a96e8d6ed104ac1c7
+PODFILE CHECKSUM: 27cee1e7fbd306b647effeb728bb89fcd5e801d6
 
 COCOAPODS: 1.12.1
