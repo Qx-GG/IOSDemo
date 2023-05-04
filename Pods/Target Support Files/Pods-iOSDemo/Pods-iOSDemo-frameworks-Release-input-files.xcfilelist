@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/JJKit/JJKit.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

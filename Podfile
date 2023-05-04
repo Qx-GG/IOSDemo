@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+use_frameworks!
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+target 'iOSDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for iOSDemo
+  pod 'JJKit'
+  pod 'AFNetworking'
+  pod 'Alamofire'
+  pod 'SnapKit'
+
+end

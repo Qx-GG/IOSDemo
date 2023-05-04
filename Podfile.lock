@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.6.4)
+  - JJKit (1.0.4):
+    - JJKit/JJCarouselView (= 1.0.4)
+    - JJKit/JJExtension (= 1.0.4)
+    - JJKit/JJRouter (= 1.0.4)
+    - JJKit/JJTransition (= 1.0.4)
+  - JJKit/JJCarouselView (1.0.4):
+    - JJKit/JJExtension
+  - JJKit/JJExtension (1.0.4)
+  - JJKit/JJRouter (1.0.4):
+    - JJKit/JJExtension
+  - JJKit/JJTransition (1.0.4):
+    - JJKit/JJExtension
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
+  - JJKit
+  - SnapKit
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - Alamofire
+    - JJKit
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  JJKit: 9245698487897aa529bab3fc92b1cf53a168e470
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 0ffce4e08423dc63e4630645a6d2768319521094
+
+COCOAPODS: 1.12.0
